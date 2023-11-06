@@ -1,0 +1,78 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* css reset */
+}
+.container {
+  display: flex;
+  background-color: #ccc;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 25%;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.input {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 4px 0;
+  margin-right: 1rem;
+  flex-grow: 1;
+}
+
+.btn {
+  width: 100px;
+  padding: 16px 20px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  border: none;
+  height:fit-content;
+}
+
+.btn-add {
+  background-color: #000;
+  color: #fff;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #aaa;
+  padding: 1rem;
+  margin: 4px 0;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.task {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.btn-list {
+  margin-right: 1rem;
+}
